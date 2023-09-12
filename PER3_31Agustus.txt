@@ -1,0 +1,143 @@
+interview questions harus:
+- tidak terlalu technical/mengandung jargon
+- tidak ambigu/sulit dijawab
+
+persona
+nama persona tidak sama dengan user asli
+
+tahapan pembangunan perangkat lunak
+- requirement analisis
+user story :
+informal, mempresentasikan fitur, dari perspektif pengguna, untuk memberikan value ke pengguna dan merupakannya dalam bentuk bahasan
+dipakai tergantung metode perangkat lunaknya gimana
+kek scrum, agile, kanban
+
+misal fitur laporan bulanan 
+fitur dari sudut pandang sistem = bisa menampilkan laporan mingguan
+fitur dari sudut pandang pengguna = user bisa melihat laporan
+gunanya untuk menempatkan diri kita sebagai user.
+
+alur misal pake user story
+1. 
+2. list backlog (fitur-fitur)
+3. 
+
+
+user story
+- menggunakan bahaasa non teknis
+- bisa dikelompokkan menjadi lebih besar disebut epik, lalu dikelompokkan lagi menjadi themes
+- setelah baca user story, developer harus:
+  - apa yang harus dikembangkan 
+  - memahami alasan dan nilai dari pengembangan yang dilakukan. 
+
+poin good user story:
+- Independent = tidak bergantung pada user story yang lain. dikerjakan tanpa menunggu user story yang lain.
+- Negotiable  = bisa dinegosiasi. fleksibel dan dapat didiskusikan kembali. dan didetailkan belih mudah
+- valuable    = memenuhi value yang diinginkan usernya
+- estimable   = dapat memperkirakan scopenya, sudah selesai saat memenuhi apa. misal data yang harus ditampilkan, tampilannya ketika               meminta filter tertentu apa, estimasi sudah selesai atau belum.
+- small       = satu user story dapat diselesaikan pada satu iterasi atau 2 minggu. jangan terlalu besar atau kecil
+- testable    = diuji, tepat atau belum
+
+benefit pake user story
+- fokus ke user. harus membuat apa kepada user
+- enable collaboration. dari user story - tim berdiskusi - solusinya apa (apa yang harus diprosose)
+- drive create solution . berpikir kritis buat menyelesaikan masalah
+- create momentum. jika satu user story dikerjakan dalam dua minggu, lalu selesai, maka ada momentum. selebrate keberhasilan dan melihat beberapa story yang diselesaikan tiap iterasi apakah naik apa turun performanya
+
+problem 
+- ambigu. solusinya diperjelas scopenya
+
+
+
+bagian pada user story:
+- siapa si usernya
+- aksinya apa. apa yang akan dilakukan.
+- hasil yang diharapkan apa. melihat keuntungan user saat melihat laporan.
+
+
+ACCEPTANCE CRITERIA
+mendefinisikan scope user story 
+bentuknya checklist atau list 
+satu user story punya banyak kriteria
+
+epic - user story banyak - subtask banyak
+
+subtask di dapat dari acceptance criteria
+
+task
+- task dengna scope kecil
+
+
+TUGAS -----------------------------------
+== USER STORY ==
+- Sebagai mahasiswa, saya ingin dibimbing oleh mentor yang sabar dan ramah sehingga saya bisa leluasa bertanya dan berdiskusi.
+user acceptance:
++ Ketika saya sudah bergabung ke dalam platform pembelajaran, saya mendapatkan satu mentor yang bisa dihubungi kapan saja. 
++ Ketika saya sedang mendengarkan dan menonton penjelasan mentor, saya bisa mengajukan pertanyaan secara impulsif kapanpun.
++ ketika saya tidak memahami penjelasan mentor dengan baik, saya bisa berdiskusi ulang dengan mentor untuk membahas materi yang masih ambigu. 
+
+
+- sebagai mahasiswa, saya ingin mendapatkan sumber belajar tentang pengembangan web yang terstruktur, terarah, dan terurut sehingga saya bisa belajar sesuai dengan kebutuhan untuk menjadi pengembang web.
+user acceptance :
++ Ketika saya sudah bergabung ke dalam platform pembelajaran, saya bisa memilih untuk mendapatkan mentor secara langsung atau mengakses media pembelajaran atau modul
++ Ketika saya mengakses menu modul, saya bisa melihat materi setelah dan sebelum yang akan saya pelajari.
++ Ketika saya telah menyelesaikan suatu materi tertentu, saya mendapatkan suatu notifikasi yang memberitahu materi selanjutnya yang harus saya pelajari.
+
+- sebagai mahasiswa, saya ingin bergabung ke dalam sebuah platform pengembang website sehingga saya dapat berdiskusi dan bertukar pikiran dengan orang-orang yang punya minat sama.
+user acceptance:
++ Ketika saya sudah mendaftar atau bergabung ke dalam suatu platform pembelajaran, saya bisa bergabung ke dalam forum chat yang dapat mendiskusikan materi yang sama.
++ Ketika saya membuka menu diskusi, saya bisa bebas kapanpun dan dimanapun bertukar pikiran dengan orang lain tanpa melihat waktu.
+
+- sebagai mahasiswa, saya ingin memiliki sebuah sistem pengingat belajar sehingga saya bisa secara rutin belajar.
+user acceptance:
++ Ketika saya mendaftar atau bergabung ke suatu platform pembelajaran, saya ingin mendapatkan tampilan dan notifikasi quotes dorongan belajar.
++ Ketika saya mengaktifkan menu waktu belajar, saya mendapatkan notifikasi berisi jam mulai belajar dan materi yang harus dipelajari. 
+
+- sebagai mahasiswa, saya ingin tidak ada seorangpun atau hal apapun yang mengganggu saat belajar sehingga saya bisa fokus belajar.
+user acceptance :
++ Ketika saya sedang mengakses materi pembelajaran, saya tidak akan mendapatkan notifikasi apapun dari aplikasi luar.
++ Ketika saya sedang mengakses materi pembelajaran, saya bisa memilih tampilan mode light atau dark.
+
+- sebagai mahasiswa, saya ingin belajar pengembangan web dengan sumber yang terpercaya sehingga saya bisa paham dan mendapatkan pembelajaran sesuai dengan kenyataan.
+user acceptance :
++ Ketika saya mengakses suatu materi pembelajaran, saya bisa mengetahui siapa pembuat atau pemateri dari materi tersebut. 
+
+- sebagai mahasiswa, saya ingin memaksimalkan waktu belajar efektif sehingga saya bisa meningkatkan pemahaman saya lebih cepat.
+user acceptance :
++ Ketika saya mengakses menu-menu pada platform pembelajaran, saya bisa menambahkan range waktu belajar di setiap harinya yang dapat diubah-ubah.
+
+- sebagai mahasiswa, saya ingin mengakses semua media pembelajaran sehingga saya dapat memperluas pengetahuan saya tentang pengembangan website. 
+user acceptance :
++ Ketika saya mengakses menu media pembelajaran, saya bisa memilih untuk menggunakan media video, teks literatur, atau game.
+
+- sebagai mahasiswa, saya ingin mengerjakan projek yang berhubungan dengan website sehingga saya dapat mengaplikasikan materi yang telah dipelajari secara langsung. 
+user acceptance :
++ ketika saya bergabung ke dalam platform pembelajaran, saya mendapatkan kelompok proyek yang harus dikerjakan secara berkelompok sesuai dengan kriteria tertentu.
+
+- sebagai mahasiswa, saya ingin mengukur kemampuan saya di bidang pengembangan web sehingga saya bisa mengetahui sampai mana pengetahuan dan kemampuan pengembang web 
+user acceptance :
++ Ketika saya telah menyelesaikan materi atau modul tertentu, saya mendapatkan beberapa pertanyaan test yang harus dikerjakan.
++ ketika saya telah mendapatkan skor hasil test, saya mendapatkan tampilan apakah skor test saya lolos ke materi selanjutnya atau tidak. 
++ ketika saya mendapatkan skor yang belum lolos, saya bisa langsung mendapatkan pembahasan dari mentor dan berdiskusi dengannya. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
